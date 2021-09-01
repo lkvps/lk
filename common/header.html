@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{$setting.company_profile}" />
+    <meta name="keywords" content="{$setting.web_seo_keywords}" />
+    <title>{$setting.company_name}-专注于香港服务器、美国服务器等云服务器</title>
+    <link rel="stylesheet" href="{$setting.web_view}/assets/css/vendor.min.css">
+    <link rel="stylesheet" href="{$setting.web_view}/assets/css/theme.min.css">
+    <link rel="stylesheet" href="{$setting.web_view}/assets/css/reset.css">
+    <script src="{$setting.web_view}/assets/js/vendor.min.js"></script>
+    <script src="{$setting.web_view}/assets/js/whmcs.js"></script>
+    <link rel="stylesheet" type="text/css" href="{$setting.web_view}/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="{$setting.web_view}/assets/css/vps.css" />
+</head>
+<body data-phone-cc-input="1">
+  <header id="header" class="header header-box-shadow-on-scroll  header-abs-top header-bg-transparent header-show-hide"
+          data-hs-header-options='{
+            "fixMoment": 1000,
+            "fixEffect": "slide"
+          }'>
+    <div class="header-section">
+      <!-- Topbar -->
+      <div class="container header-hide-content pt-2">
+        <div class="d-flex align-items-center">
+		<div class="right-topbar">
+                Welcome to {$setting.company_name}
+		</div>
+          <div class="ml-auto">
+            <!-- Links -->
+            <div class="nav nav-sm nav-y-0 d-none d-sm-flex ml-sm-auto">
+              <a class="nav-link" href="/help.html">Help</a>
+              <a class="nav-link" href="/login">Admin</a>
+            </div>
+            <!-- End Links -->
+          </div>
+
+          <ul class="list-inline ml-2 mb-0">
+            <!-- Shopping Cart -->
+            <li class="list-inline-item">
+              <div class="hs-unfold">
+                <a class="js-hs-unfold-invoker btn btn-xs btn-icon btn-ghost-secondary" href="/cart">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </div>
+            </li>
+            <!-- End Shopping Cart -->
+            {if $userInfo}
+            <li class="list-inline-item">
+              <div class="hs-unfold">
+                <a class="js-hs-unfold-invoker btn btn-icon btn-xs btn-ghost-secondary" href="/userlogout.html">
+                  <i class="fas fa-sign-out-alt"></i>
+                </a>
+              </div>
+            </li>
+            {else/}
+            <!-- Account Login -->
+            <li class="list-inline-item">
+              <div class="hs-unfold">
+                <a class="js-hs-unfold-invoker btn btn-icon btn-xs btn-ghost-secondary" href="/login">
+                  <i class="fas fa-user-circle"></i>
+                </a>
+              </div>
+            </li>
+            {/if}
+            <!-- End Account Login -->
+          </ul>
+        </div>
+      </div>
+      <!-- End Topbar -->
+
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-lg">
+          <!-- Logo -->
+          <a class="navbar-brand" href="/" aria-label="Front">
+            <img style="height:100%" src="{$setting.web_logo}" />
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn btn-icon btn-sm rounded-circle"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <span class="navbar-toggler-default">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"/>
+              </svg>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/>
+              </svg>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse">
+            <div class="navbar-body header-abs-top-inner">
+              <ul class="navbar-nav">
+                  
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="/">首页</a><!--IDCSMART-->
+                </li>
+                
+                <li class="hs-has-sub-menu navbar-nav-item">
+                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">产品中心</a>
+
+                <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
+                  <a class="dropdown-item" href="/cart">购物中心</a>  
+                  <a class="dropdown-item" href="/vps.html">云服务器</a>  
+                  <a class="dropdown-item" href="/web.html">虚拟主机</a>
+                  <a class="dropdown-item" href="/cdn.html">CDN加速</a>
+                  <a class="dropdown-item" href="/ser.html">独立服务器</a>
+                </div>
+              </li>
+
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="/help.html">帮助中心</a><!--IDCSMART-->
+                </li>
+
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="/news.html">新闻中心</a><!--IDCSMART-->
+                </li>
+                
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="/join.html">加盟我们</a><!--IDCSMART-->
+                </li>
+                
+                <li class="navbar-nav-item">
+                  <a class="nav-link" href="/bt.html">宝塔面板</a><!--IDCSMART-->
+                </li>
+
+              <li class="hs-has-sub-menu navbar-nav-item">
+                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">其他</a>
+
+                <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
+                  <a class="dropdown-item" href="/about.html">关于我们</a>  
+                  <a class="dropdown-item" href="/call.html">联系我们</a>
+                  <a class="dropdown-item" href="/services.html">服务条款</a>
+                  <a class="dropdown-item" href="/privacy.html">隐私政策</a>
+                </div>
+              </li>
+                <!-- End Docs -->
+                {if $userInfo}
+                <li class="navbar-nav-last-item">
+                  <a class="btn btn-sm btn-primary transition-3d-hover" href="/login" target="_blank">用户中心</a>
+                </li>
+                {else/}
+                <li class="navbar-nav-last-item">
+                  <a class="btn btn-sm btn-primary transition-3d-hover" href="/login" target="_blank" style="margin:30px;">登入账号</a>
+                  
+                  <a class="btn btn-sm btn-primary transition-3d-hover" href="/register" target="_blank">注册账号</a>
+                </li>
+                {/if}
+                <!-- End Button -->
+              </ul>
+            </div>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->

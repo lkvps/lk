@@ -1,0 +1,261 @@
+<style>
+.Powered {
+    display: none;
+}
+</style>
+<!-- ========== FOOTER ========== -->
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="space-top-2 space-bottom-1 space-bottom-lg-2">
+        <div class="row justify-content-lg-between">
+          <div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0">
+            <!-- Logo -->
+            <div class="mb-4">
+              <a href="index.html" aria-label="Front">
+                <img class="brand" src="{$setting.web_logo}">
+              </a>
+            </div>
+            <!-- End Logo -->
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+               <li class="nav-item">
+                <p class="nav-link media">
+                    <span class="media">
+                      <span class="media-body">
+                        {$setting.company_profile}
+                      </span>
+                    </span>
+                </p>
+              </li>
+              <li class="nav-item">
+                    <span class="nav-link media">
+                      <span class="fas fa-location-arrow mt-1 mr-2"></span>
+                      <span class="media-body" id="sitetime">
+                      </span>
+                    </span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link media" href="mailto:{$setting.company_email}">
+                    <span class="media">
+                      <span class="fas fa-envelope mt-1 mr-2"></span>
+                      <span class="media-body">
+                        {$setting.company_email}
+                      </span>
+                    </span>
+                </a>
+              </li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+            <h5 class="text-white">服务概览</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+              <li class="nav-item"><a class="nav-link" href="/cart">虚拟主机</a></li>
+              <li class="nav-item"><a class="nav-link" href="/cart">云服务器 <span class="badge badge-primary ml-1">限时特惠</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="/cart">独立服务器</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+            <h5 class="text-white">产品特性</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+			  <li class="nav-link">产品稳定</li>
+              <li class="nav-link">性能强悍</li>
+              <li class="nav-link">价格实惠</li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg">
+            <h5 class="text-white">了解更多</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+              <li class="nav-item"><a class="nav-link" href="/news.html">行业新闻</a></li>
+              <li class="nav-item"><a class="nav-link" href="/news.html">站点通知</a></li>
+              <li class="nav-item"><a class="nav-link" href="/help.html">帮助中心</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-6 col-md-3 col-lg">
+            <h5 class="text-white">企业信息</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+             <li class="nav-item"><a class="nav-link" href="/about.html">企业简介</a></li>
+             <li class="nav-item"><a class="nav-link" href="/call.html">招贤纳士</a></li>
+             <li class="nav-item"><a class="nav-link" href="/call.html">联系我们</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+          
+          <div class="col-6 col-md-3 col-lg">
+            <h5 class="text-white">友情链接</h5>
+
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-x-0 nav-white flex-column">
+              <li class="nav-item"><a class="nav-link" href="/call.html">期待您的加入</a></li>
+              <li class="nav-item"><a class="nav-link" href="/call.html">期待您的加入</a></li>
+              <li class="nav-item"><a class="nav-link" href="/call.html">期待您的加入</a></li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+          
+        </div>
+      </div>
+
+      <hr class="opacity-xs my-0">
+
+      <div class="space-1">
+        <div class="row align-items-md-center mb-7">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <!-- Nav Link -->
+            <ul class="nav nav-sm nav-white nav-x-sm align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/services.html">使用条款</a>
+              </li>
+              <li class="nav-item opacity mx-3">&#47;</li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services.html">合理使用政策</a>
+              </li>
+              <li class="nav-item opacity mx-3">&#47;</li>
+              <li class="nav-item">
+                <a class="nav-link" href="/privacy.html">隐私政策</a>
+              </li>
+            </ul>
+            <!-- End Nav Link -->
+          </div>
+
+          <div class="col-md-6 text-md-right">
+            <ul class="list-inline mb-0">
+              <!-- Social Networks -->
+              <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-light" href="http://wpa.qq.com/msgrd?v=3&uin={$CustomDepot.qq}&site=qq&menu=yes">
+                  <img class="img-fluid" src="{$setting.web_view}/assets/img/qq.png
+                  "></img>
+                </a>
+              </li>
+			  <li class="list-inline-item">
+                <a class="btn btn-xs btn-icon btn-soft-light" href="./call.html">
+                  <img class="img-fluid" src="{$setting.web_view}/assets/svg/weixin.svg" alt="SVG"></img>
+                </a>
+              </li>
+              <!-- End Social Networks -->
+            </ul>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="w-md-75 text-lg-center mx-lg-auto">
+          <p class="text-white opacity-sm small">Copyright &copy; 2021 {$setting.company_name} All Rights Reserved.</p>
+		<!--<a href="https://beian.miit.gov.cn/" target="_blank" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">ICP备案号：{$setting.company_record}</p></a>-->
+        </div>
+        <!-- End Copyright -->
+      </div>
+    </div>
+  </footer>
+  <script src="{$setting.web_view}/assets/js/theme.min.js"></script>
+  <script src="//code.tidio.co/df1m0caknf99uslolbcf2nsvjxtppj64.js" async></script>
+  <script>
+    $(document).on('ready', function () {
+      var header = new HSHeader($('#header')).init();
+      var megaMenu = new HSMegaMenu($('.js-mega-menu'), {
+        desktop: {
+          position: 'left'
+        }
+      }).init();
+      var unfold = new HSUnfold('.js-hs-unfold-invoker').init();
+      var typed = $.HSCore.components.HSTyped.init(".js-text-animation");
+      AOS.init({
+        duration: 650,
+        once: true
+      });
+      $('.js-validate').each(function() {
+        $.HSCore.components.HSValidation.init($(this), {
+          rules: {
+            confirmPassword: {
+              equalTo: '#signupPassword'
+            }
+          }
+        });
+      });
+      $('.js-animation-link').each(function () {
+        var showAnimation = new HSShowAnimation($(this)).init();
+      });
+      $('.js-counter').each(function() {
+        var counter = new HSCounter($(this)).init();
+      });
+      var cbpStickyFilter = new HSStickyBlock($('#cbpStickyFilter'));
+      $('.cbp').each(function () {
+        var cbp = $.HSCore.components.HSCubeportfolio.init($(this), {
+          layoutMode: 'grid',
+          filters: '#filterControls',
+          displayTypeSpeed: 0
+        });
+      });
+      $('.cbp').on('initComplete.cbp', function() {
+        cbpStickyFilter.update();
+      });
+
+      $('.cbp').on('filterComplete.cbp', function() {
+        cbpStickyFilter.update();
+      });
+
+      $('.cbp').on('pluginResize.cbp', function() {
+        cbpStickyFilter.update();
+      });
+      $('#cbpStickyFilter').on('click', '.cbp-filter-item', function (e) {
+        $('html, body').stop().animate({
+          scrollTop: $('#demoExamplesSection').offset().top
+        }, 200);
+      });
+      $('.js-go-to').each(function () {
+        var goTo = new HSGoTo($(this)).init();
+      });
+    });
+  </script>
+<script language=javascript>
+    function siteTime(){
+        window.setTimeout("siteTime()", 1000);
+        var seconds = 1000;
+        var minutes = seconds * 60;
+        var hours = minutes * 60;
+        var days = hours * 24;
+        var years = days * 365;
+        var today = new Date();
+        var todayYear = today.getFullYear();
+        var todayMonth = today.getMonth()+1;
+        var todayDate = today.getDate();
+        var todayHour = today.getHours();
+        var todayMinute = today.getMinutes();
+        var todaySecond = today.getSeconds();
+        /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)
+        year - 作为date对象的年份，为4位年份值
+        month - 0-11之间的整数，做为date对象的月份
+        day - 1-31之间的整数，做为date对象的天数
+        hours - 0(午夜24点)-23之间的整数，做为date对象的小时数
+        minutes - 0-59之间的整数，做为date对象的分钟数
+        seconds - 0-59之间的整数，做为date对象的秒数
+        microseconds - 0-999之间的整数，做为date对象的毫秒数 */
+        var t1 = Date.UTC(2020,06,01,00,00,00); //北京时间2016-12-1 00:00:00
+        var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+        var diff = t2-t1;
+        var diffYears = Math.floor(diff/years);
+        var diffDays = Math.floor((diff/days)-diffYears*365);
+        var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+        var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+        var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+        document.getElementById("sitetime").innerHTML=" 已运行"+diffYears+" 年 "+diffDays+" 天 "+diffSeconds+" 秒";
+    }
+    siteTime();
+</script>
+  <div class="Powered">
+</body>
+</html>
