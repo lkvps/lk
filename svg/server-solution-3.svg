@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-chanpin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.07359629%" y1="22.226847%" x2="88.0538702%" y2="81.2363565%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.0176648845" offset="100%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.00954412624" offset="100%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon-chanpin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <g transform="translate(0.000000, 3.000000)">
+                <path d="M3,22 C3,9.8497355 12.8497355,0 25,0 C34.9531446,0 43.3625396,6.60957802 46.0784051,15.6789542 L49.1213203,12.636039 M47,22 C47,34.1502645 37.1502645,44 25,44 C15.0468554,44 6.63746042,37.390422 3.92159493,28.3210458 L0.878679656,31.363961" id="Combined-Shape" stroke="#05101F" stroke-width="2"></path>
+                <circle id="Oval-7" fill="url(#linearGradient-1)" cx="25" cy="22" r="17"></circle>
+                <polyline id="Rectangle-14" stroke="#0069FF" stroke-width="2" opacity="0.302819293" points="33.0666049 24.3274529 36.627417 26.3150001 25.3137085 32.6300001 14 26.3150001 17.4928793 24.3653712"></polyline>
+                <polygon id="Rectangle-14-Copy-2" stroke="#0069FF" stroke-width="2" opacity="0.302819293" points="36.627417 21.3150001 25.3137085 27.6300001 14 21.3150001 25.3137085 15"></polygon>
+                <polygon id="Rectangle-14-Copy-3" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" points="36.627417 16.3150001 25.3137085 22.6300001 14 16.3150001 25.3137085 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-zhuanxing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="35.837%" y1="35.8267668%" x2="100.045%" y2="98.6142097%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon-zhuanxing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-13-Copy" stroke="#05101F" stroke-width="2" fill="#FFFFFF" x="15" y="15" width="34" height="34" rx="2"></rect>
+        <polygon id="Path-2" fill="url(#linearGradient-1)" points="35 1 1 35 15 49 49 49 49 15"></polygon>
+        <g id="Group-8" opacity="0.304744112" transform="translate(21.000000, 23.000000)" stroke="#0069FF" stroke-width="2">
+            <path d="M8,1 L13,1" id="Line"></path>
+            <path d="M0,9 L5,9" id="Line-Copy-4"></path>
+            <path d="M7,9 L16,9" id="Line-Copy-2"></path>
+            <path d="M0,17 L6,17" id="Line-Copy-6"></path>
+            <path d="M8,17 L22,17" id="Line-Copy-5"></path>
+            <path d="M15,1 L22,1" id="Line-Copy"></path>
+            <path d="M0,1 L6,1" id="Line-Copy-7"></path>
+            <path d="M18,9 L22,9" id="Line-Copy-3"></path>
+        </g>
+        <rect id="Rectangle-13" stroke="#05101F" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="34" height="34" rx="2"></rect>
+        <g id="Group-7" transform="translate(18.000000, 18.000000) rotate(-315.000000) translate(-18.000000, -18.000000) translate(4.000000, 4.000000)">
+            <circle id="Oval-5" fill="#0069FF" cx="14" cy="14" r="2"></circle>
+            <ellipse id="Oval-4" stroke="#0069FF" stroke-width="2" cx="14" cy="14" rx="14" ry="7"></ellipse>
+            <ellipse id="Oval-4" stroke="#0069FF" stroke-width="2" transform="translate(14.000000, 14.000000) rotate(-270.000000) translate(-14.000000, -14.000000) " cx="14" cy="14" rx="14" ry="7"></ellipse>
+        </g>
+    </g>
+</svg>

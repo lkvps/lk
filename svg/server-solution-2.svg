@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-shuzi</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.2596033%" y1="23.5302881%" x2="68.622156%" y2="87.0052471%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon-shuzi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-25">
+            <g transform="translate(1.000000, 1.000000)">
+                <g id="Group-9" opacity="0.295289855" transform="translate(1.000000, 11.000000)" stroke="#0069FF" stroke-width="2">
+                    <path d="M3.90798505e-14,1 L46,1" id="Line-2"></path>
+                    <path d="M3.90798505e-14,13 L46,13" id="Line-2"></path>
+                    <path d="M3.90798505e-14,25 L46,25" id="Line-2"></path>
+                </g>
+                <rect id="Rectangle-11" stroke="#05101F" stroke-width="2" x="1" y="3" width="46" height="42" rx="2"></rect>
+                <path d="M0.903805922,35.0017857 L18.7100403,17.1955513 C19.8816132,16.0239784 21.7811081,16.0239784 22.952681,17.1955513 L25.7811081,20.0239784 C26.952681,21.1955513 28.8521759,21.1955513 30.0237488,20.0239784 L47.5728535,2.47487373 L47.5728535,45.0000624 L1,45.0000624 L0.903805922,35.0017857 Z" id="Rectangle-14-Copy" fill="url(#linearGradient-1)"></path>
+                <path d="M3.2383297,13.7383297 L21.4201479,13.7383297 C23.0770021,13.7383297 24.4201479,15.0814755 24.4201479,16.7383297 L24.4201479,20.7383297 C24.4201479,22.395184 25.7632936,23.7383297 27.4201479,23.7383297 L45.2383297,23.7383297" id="Rectangle-14-Copy" stroke="#0069FF" stroke-width="2" transform="translate(24.238330, 18.738330) rotate(-45.000000) translate(-24.238330, -18.738330) "></path>
+                <circle id="Oval-6" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" cx="45" cy="5" r="3"></circle>
+                <circle id="Oval-6-Copy" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" cx="8" cy="27" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
